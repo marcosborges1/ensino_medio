@@ -14,6 +14,17 @@
     <link href="styles/my_style.css" rel="stylesheet" type="text/css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="scripts/app/MyUtils.js"></script>
+    <link rel="stylesheet" href="styles/animate.css">
+    <script src="scripts/wow.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175517686-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-175517686-1');
+    </script>
   </head>
   <body class="h-100">
     <div class="container-fluid">
@@ -46,7 +57,7 @@
               <input class="navbar-search form-control" type="text" placeholder="Pesquise por algo..." aria-label="Search"> </div>
           </form>
           <!-- Add Menu -->
-          <div class="nav-wrapper">
+          <div class="nav-wrapper wow slideInLeft">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a id="dashboard" class="nav-link" title="Página Inicial" href="/ensino_medio/index.html">
@@ -92,7 +103,7 @@
         <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
           
           <!-- Main Navbar -->
-          <div class="main-navbar sticky-top bg-white">
+          <div class="main-navbar sticky-top bg-white wow slideInDown top__element ">
             <nav class="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
               <form action="#" class="main-navbar__search w-100 d-none d-md-flex d-lg-flex">
                 <div class="input-group input-group-seamless ml-3">

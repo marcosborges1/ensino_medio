@@ -14,6 +14,17 @@
     <link href="styles/my_style.css" rel="stylesheet" type="text/css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="scripts/app/MyUtils.js"></script>
+    <link rel="stylesheet" href="styles/animate.css">
+    <script src="scripts/wow.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175517686-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-175517686-1');
+    </script>
   </head>
   <body class="h-100">
     <div class="container-fluid">
@@ -45,7 +56,7 @@
               <input class="navbar-search form-control" type="text" placeholder="Search for something..." aria-label="Search"> </div>
           </form>
           <!-- Add Menu -->
-          <div class="nav-wrapper">
+          <div class="nav-wrapper wow slideInLeft">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a id="dashboard" class="nav-link active" title="Página Inicial" href="/ensino_medio/index.html">
@@ -91,7 +102,7 @@
         <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
           
             <!-- Main Navbar -->
-            <div class="main-navbar sticky-top bg-white">
+            <div class="main-navbar sticky-top bg-white wow slideInDown top__element" data-wow-delay="0.5s">
               <nav class="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
                 <form action="#" class="main-navbar__search w-100 d-none d-md-flex d-lg-flex">
                   <div class="input-group input-group-seamless ml-3">
@@ -136,7 +147,7 @@
             </div>
             <!-- End Main Navbar -->
 
-          <div class="main-content-container container-fluid px-4">
+          <div class="main-content-container container-fluid px-4 wow slideInRight">
             
             <!-- Page Header -->
             <div class="page-header row no-gutters py-4">
@@ -175,8 +186,7 @@
         </main>
       </div>
     </div>
-
-    <div style="position: fixed;bottom:0;width: 100%" data-includeHTML="html_subparts/footer.html"></div>
+    <div class="wow slideInUp" data-wow-delay="1s" style="position: fixed;bottom:0;width: 100%" data-includeHTML="html_subparts/footer.html"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
