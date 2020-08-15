@@ -31,7 +31,7 @@ function tupla(r,i) {
   							Copiar Link
 						</button>
 						ou
-						<a class="btn btn-primary" style="margin-top:-5px;padding:2px;" href="${r.content.$t}" class="access_link">Acessar Link</a>
+						<a target="_blanck" class="btn btn-primary" style="margin-top:-5px;padding:2px;" href="${r.content.$t}" class="access_link">Acessar Link</a>
 					</td>`
 		}
 	}
@@ -51,7 +51,7 @@ function showHorario(codigo) {
 function copiar(el, url) {
 
   $($(el).parent().find("span")[0]).show().html("Copiado!")
-  $($(el).parent().find("span")[0]).delay(2000).fadeOut("slow")
+  $($(el).parent().find("span")[0]).delay(1000).fadeOut("slow")
   $('#input_copiar').val(url).select()
   document.execCommand("Copy");
 } 
