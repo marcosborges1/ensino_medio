@@ -42,7 +42,7 @@ a.access_link:hover {
 }
 .copiar_link_meet {
 	position: absolute;
-	top:0px;
+	top:-50px;
 }
 .margin_block {
 	margin-top: 15px;
