@@ -31,7 +31,7 @@ function tupla(r,i) {
   							Copiar Link
 						</button>
 						ou
-						<a target="_blanck" class="btn btn-primary" style="margin-top:-5px;padding:2px;" href="${r.content.$t}" class="access_link">Acessar Link</a>
+						<a target="_blanck" style="margin-top:-5px;padding:2px;" href="${r.content.$t}" class="access_link">Acessar Meet</a>
 					</td>`
 		}
 	}

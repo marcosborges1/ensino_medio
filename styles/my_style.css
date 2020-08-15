@@ -6,7 +6,7 @@
   background: #f981b3 !important;
 }
 
-.table-hover tr:hover a.access_link {
+a.access_link:hover {
 	color:blue;
 	text-decoration: underline;
 }
@@ -32,7 +32,6 @@
 
 }
 .tooltiptext::after {
-  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
@@ -43,5 +42,8 @@
 }
 .copiar_link_meet {
 	position: absolute;
-	top:-500px;
+	top:0px;
+}
+.margin_block {
+	margin-top: 15px;
 }
